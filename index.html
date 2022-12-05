@@ -237,12 +237,12 @@
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <script>
-      var slider = document.getElementById("high");
-      var output = document.getElementById("high_value");
-      output.innerHTML = slider.value;
+      var slider_high = document.getElementById("high");
+      var output_high = document.getElementById("high_value");
+      output_high.innerHTML = slider_high.value;
 
-      slider.oninput = function () {
-        output.innerHTML = this.value;
+      slider_high.oninput = function () {
+        output_high.innerHTML = this.value;
       };
       var slider = document.getElementById("happiness");
       var output = document.getElementById("happiness_rate");
